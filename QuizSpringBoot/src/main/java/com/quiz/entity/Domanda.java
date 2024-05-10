@@ -21,13 +21,8 @@ public class Domanda {
 	
 	@Column(nullable = false)
 	private List<String> opzioniRisposta;
-	
-	// Costruttore di default
-	public Domanda() {
-	    // Costruttore vuoto
-	}
 
-    // Costruttore
+	// Costruttore
 	public Domanda(int id, String testo, int livelloDifficoltà, List<String> opzioniRisposta) {
 		this.id = id;
 		this.testo = testo;
